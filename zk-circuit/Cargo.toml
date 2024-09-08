@@ -1,0 +1,11 @@
+[package]
+name = "zk-circuits"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+plonky2 = "0.2.2"
+anyhow = "1.0.86"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+rocket = { version = "0.5.1", features = ["json"] }

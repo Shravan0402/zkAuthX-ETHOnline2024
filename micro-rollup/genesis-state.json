@@ -1,0 +1,20 @@
+{
+    "state": {
+        "operator":"0xE369a4954f41EC673d62Cf248df98BcC81a7967B",
+        "webServices": {
+            "demo":{
+                "id":"demo",
+                "admin": "0xE369a4954f41EC673d62Cf248df98BcC81a7967B",
+                "users": {
+                    "1": {
+                        "username": 1,
+                        "password": [0],
+                        "pendingLogins": [""],
+                        "totalLogins": 0,
+                        "lastLoginTimestamp": 0
+                    }
+                }
+            }
+        }
+    }
+}
