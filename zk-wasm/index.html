@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+
+<body>
+    <Script type="module">
+        import init, {generate_proof, verify_proof, print_string} from "./pkg/zk_wasm.js"
+        await init();
+        let proof = await generate_proof(1234, "1234");
+        console.log(verify_proof(proof, ["2392717318274673360","8183390781833491204","15905630690689051473","11908357857084673643","4330397376401421145","14124799381142128323","8742572140681234676","14345658006221440202"], 1234))
+    </Script>
+</body>
+
+
+</html>
